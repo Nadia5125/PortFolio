@@ -1,0 +1,319 @@
+
+/* @import url('https://font.googleapis.com/css?family:Raleway:200,100,400'); */
+@import url('https://fonts.google.com/specimen/Raleway?selection.family=Raleway:400,400i,700');
+
+
+
+
+* {
+    width: 0 auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-one {
+    background: #333 center / cover url(../img/keyboad.jpg);
+    text-align: center;    
+    position: relative;
+    height: 350px;
+    background-size: 100% 100%; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;              
+}
+
+
+/*this the welcome letter */
+span {
+    position: relative;
+    top: 90px;
+}
+
+
+/*this the nadia ms name*/
+h6 {
+    position: relative;    
+    font-size: x-small;
+    right: 10px;
+    top: 10px;
+    /* font: italic 10px serif; */
+    font: italic 10px serif;
+    width: 20%;
+}
+
+
+/* this is the second one */
+.mid-wrapp {
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;    
+    text-align: center;  
+    height: 65px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;  
+    
+}
+
+
+/*this for the picture and paragraph*/
+.paragraph {
+    background-color: rgba(255, 255, 255, 0.637);
+    position: relative;
+    bottom: 20px;
+    height: 500px;
+    margin: 30px;
+    padding: 30px;
+    margin-right: 30px;
+    
+}
+
+
+img {
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    border-color: solid black;
+    left: 10px; 
+    margin: 20px;
+} 
+
+
+/*this for the paragraph*/
+p {
+    font-size: 2em;
+    width: 95%;
+    margin: 20px;
+    font-size: x-large;
+    padding: 10px;
+} 
+
+
+.section-one h6 {
+    font-family: "Lexend Deca", sans-serif;
+    color: rgba(235, 120, 13, 0.644);
+    margin-top: 40px;
+    margin: 0;
+    font-size: 2em;
+    padding: 2em;
+    text-shadow: 5px 5px 200px;    
+}
+
+
+.container {
+    position: relative;
+    color: white;
+    bottom: 18em;
+}
+
+
+/*this for the red movement */
+.section-two {
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    padding: 0 0 35px; 
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 200px; 
+    top: 455px;    
+}
+
+
+.section-two h2 {
+    font-size: 2em;
+    padding: 1em;
+    font-size: 2em;
+    width: 60%;  
+}
+
+
+/*this for the curve svg */
+.curve {
+    fill: #fff;
+    height: 15%;
+    width: 100%;
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/*this for social media*/
+.columns-social {
+    position: relative;    
+    grid-template-columns: repeat(2, auto);
+    display: grid;
+    max-width: 50%;
+    top: 50px;
+}
+
+
+
+/*this for social media columns*/
+.columns {    
+    grid-template-columns: repeat(3, auto);
+    position: relative;
+    display: grid; 
+    width: 50%;
+    font-size: xx-small;  
+}
+
+
+footer {    
+    background-color: white;
+    text-align: center;
+    color: rgba(231, 120, 17, 0.925);;
+    width: 100%;     
+    height: 60px;
+    overflow: hidden;
+}
+
+
+
+@media(min-width: 1200px) {
+    h6 {
+        font-size: 5rm;
+   }
+}
+
+
+@media(min-width: 800px) {
+    .section-one {
+        padding: 0 1rm;        
+    }
+
+    h6{
+        font-size: 3rm;
+    }
+}
+
+
+@media(max-width: 500px) {
+    h6 {
+        font-size: 2.5rm;
+    }
+
+    h6{
+        font-size: 1.5rm;
+    }
+}
+
+
+
+/*for the logo*/
+@media(min-width: 1200px) {
+    h6 {
+        font-size: 5rm;
+   }
+}
+
+
+@media(min-width: 800px) {
+    .logo {
+        padding: 0 1rm;        
+    }
+
+    h6{
+        font-size: 3rm;
+    }
+}
+
+
+@media(max-width: 500px) {
+    h6 {
+        font-size: 5.5rm;
+    }
+
+    h6{
+        font-size: 5.5rm;
+    }
+}
+
+
+@media(max-width: 150px) {
+    .logo {
+        font-size: 2.1rm;
+
+    }
+    h6 {
+        font-size: 2.1rm;
+    }
+
+    h6{
+        font-size: 2.1rm;
+    }
+}
+
+
+
+
+
+
+@media(min-width: 1200px) {
+    h4 {
+        font-size: 5rm;
+   }
+}
+
+
+@media(min-width: 800px) {
+    .section-one .logo {
+        padding: 0 1rm;        
+    }
+
+    h6{
+        font-size: 3rm;
+    }
+}
+
+
+@media(max-width: 500px) {
+    h6 {
+        font-size: 2.5rm;
+    }
+
+    h4 {
+        font-size: 1.5rm;
+    }
+}
+
+
+
+
+
+@media(min-width: 1200px) {
+    h2 {
+        font-size: 5rm;
+   }
+}
+
+
+@media(min-width: 800px) {
+    .container {
+        padding: 0 1rm;        
+    }
+
+    h2{
+        font-size: 3rm;
+    }
+}
+
+
+@media(max-width: 500px) {
+    h2 {
+        font-size: 2.5rm;
+    }
+
+    p {
+        font-size: 1.5rm;
+    }
+}
