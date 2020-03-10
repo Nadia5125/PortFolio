@@ -9,12 +9,6 @@
     padding: 0 auto;
 }
 
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 
 .section-one {
@@ -116,7 +110,8 @@ p{
     background-color: rgba(255, 255, 255, 0.795);
     font-size: x-large;
     margin: 30px;
-}
+}  
+
 
 /*this for the columns*/
 .columns-social {
@@ -124,8 +119,9 @@ p{
     grid-template-columns: repeat(2, auto);
     display: grid;
     max-width: 50%;
-    top: 50px;
+    top: 90px;
 }
+
 
 footer { 
     position: relative;   
@@ -276,33 +272,5 @@ footer {
         font-size: 1.5rm;
     }
 }
-
-
-
-/*this for the social media hover fa fa */
-
-.column1:hover {
-    opacity: 0.7;
-}
-/* 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  width: 70px;
-  border-radius: 80px;
-  height: 60px;
-}  */
-
 
 

@@ -12,14 +12,6 @@
 }
 
 
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-
 .section-one {
     background: #333 center / cover url(../img/keyboad.jpg);
     text-align: center;    
