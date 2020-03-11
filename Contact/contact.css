@@ -11,6 +11,11 @@
 }
 
 
+body {
+    background-color: whitesmoke;
+}
+
+
 
 
 .section-one {
@@ -112,7 +117,8 @@ p {
 
 /*this for the curve svg */
 .curve {
-    fill: #fff;
+    /* fill: #fff; */
+    fill:  whitesmoke;
     height: 15%;
     width: 100%;
     position: absolute;    
@@ -132,7 +138,7 @@ p {
 
 
 footer {    
-    background-color: white;
+    background-color: whitesmoke;
     text-align: center;
     color: rgba(231, 120, 17, 0.925);;
     width: 100%;     

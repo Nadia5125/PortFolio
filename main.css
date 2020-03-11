@@ -10,6 +10,11 @@
 }
 
 
+body {
+    background-color: whitesmoke;
+}
+
+
 
 .section-one {
     background: #333 center / cover url(./img/tree.jpg);
@@ -96,7 +101,8 @@ h6 {
 
 /*this for the svg */
 .curve {
-    fill: #fff;
+    /* fill: #fff; */
+    fill: whitesmoke;
     height: 15%;
     width: 100%;
     position: absolute;    
@@ -107,7 +113,6 @@ h6 {
 
 /*paragraph*/
 p{
-    background-color: rgba(255, 255, 255, 0.795);
     font-size: x-large;
     margin: 30px;
 }  
@@ -125,7 +130,7 @@ p{
 
 footer { 
     position: relative;   
-    background-color: white;
+    background-color: whitesmoke;
     text-align: center;
     color: rgba(231, 120, 17, 0.925);;
     width: 100%;     
