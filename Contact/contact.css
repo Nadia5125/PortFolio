@@ -22,10 +22,10 @@ body {
     background: #333 center / cover url(../img/keyboad.jpg);
     text-align: center;    
     position: relative;
-    height: 350px;
+    height: 500px;
     background-size: 100% 100%; 
-    position: -webkit-sticky;
-    position: sticky;
+ /*   position: -webkit-sticky; */
+ /*   position: sticky; */
     top: 0;
 }
 
@@ -93,8 +93,8 @@ button {
     text-align: center;
     background: rgba(255, 255, 255, 0);
     padding: 0 0 35px; 
-    position: -webkit-sticky;
-    position: sticky;
+ /*   position: -webkit-sticky; */
+  /*  position: sticky; */
     bottom: 200px; 
     top: 455px;    
 }

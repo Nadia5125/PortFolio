@@ -22,8 +22,8 @@ body {
     position: relative;   
     height: 500px;
     background-size: 100% 100%; 
-    position: -webkit-sticky;
-    position: sticky;
+ /*   position: -webkit-sticky;  */
+ /*   position: sticky;  */
     top: 0;              
 }
 
@@ -76,18 +76,6 @@ h6 {
     position: relative;
     color: white;
     bottom: 15em;
-}
-
-
-/*this for the red movement */
-.section-two {
-    text-align: center;
-    background: rgba(255, 255, 255, 0);
-    padding: 0 0 35px; 
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 200px; 
-    top: 455px;    
 }
 
 
