@@ -37,7 +37,7 @@ span {
 }
 
 
-/*this the nadia ms name*/
+/*this for the nadia ms name*/
 h6 {
     position: relative;    
     font-size: x-small;
@@ -52,7 +52,7 @@ h6 {
 
 /* this is the second one */
 .mid-wrapp {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(182, 40, 40, 0);
     position: relative;    
     text-align: center;
     /* margin: 10px; */
@@ -61,7 +61,7 @@ h6 {
     position: -webkit-sticky;
     position: sticky;
     top: 0;  
-    
+        
 }
 
 
